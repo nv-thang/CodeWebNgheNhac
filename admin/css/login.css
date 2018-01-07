@@ -1,0 +1,16 @@
+    
+    .loginBox{width: 340px; position: absolute; left: 50%; top: 50%; margin-top: -133px; margin-left: -150px; background: #F9F9F9; border: 1px solid #CCC; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px;
+              -webkit-box-shadow: 0px 1px 6px rgba(67, 101, 139, 0.35); -moz-box-shadow: 0px 1px 6px rgba(67, 101, 139, 0.35); box-shadow: 0px 1px 6px rgba(67, 101, 139, 0.35);}
+        .loginBox .loginHead{background: url("../img/backgrounds/header.jpg") left top repeat-x; padding: 9px 10px 10px; margin-bottom: 10px;
+                            -moz-border-top-left-radius: 3px; -webkit-border-top-left-radius: 3px; border-top-left-radius: 3px;
+                            -moz-border-top-right-radius: 3px; -webkit-border-top-right-radius: 3px; border-top-right-radius: 3px;}            
+        .loginBox .control-group{padding: 0px 20px 0px; margin-bottom: 10px;}
+            .loginBox .control-group label{font-size: 12px;}
+        .loginBox .form-actions{padding: 10px 20px; margin: 0px;}        
+        .loginBox label.checkbox{margin-left: 0px; padding: 0px; cursor: pointer;}
+        .loginBox label.checkbox .checker{margin-top: -2px;}
+            .loginBox input[type="text"], .loginBox input[type="password"]{width: 286px;}
+                    
+        
+        
+    

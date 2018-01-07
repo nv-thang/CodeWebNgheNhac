@@ -1,0 +1,60 @@
+.div_album{
+width: 10px; 
+background-color: #0000FF; 
+position: absolute; 
+height: 31px; 
+left: 0; 
+border-right: 1px solid #FAFAFA;
+}
+.divalbumhot{
+display: block; 
+width: 165px; 
+height: 165px; 
+position: relative; 
+float: left; 
+margin: 0 7px 5px 0; 
+z-index: 20;
+}
+.divalbumhot1{
+display: block; 
+width: 165px; 
+height: 495px; 
+position: relative; 
+float: left; 
+margin: 0 7px 5px 0; 
+z-index: 20;
+}
+.divalbumhotr{
+display: block; 
+width: 165px; 
+height: 165px; 
+position: relative; 
+float: left; 
+margin: 0 7px 5px 0; 
+z-index: 20;
+margin-right: 0 !important;
+}
+.div_album_chu{
+position: absolute; 
+bottom: 0; 
+width: 145px; 
+height: 30px; 
+padding: 6px 10px 10px; 
+background-color: black; 
+left: 0; 
+opacity: 0.75;
+}
+.div_album_chu h3{
+ font-size: 100%; 
+font-weight: normal; 
+margin-bottom: 5px;
+}
+.div_album_chu h3 a{
+color: white; 
+font-size: 12px; 
+font-weight: bold;
+}
+.div_album_chu span a{
+ color: #D2D1CF; 
+font-size: 11px !important;
+}

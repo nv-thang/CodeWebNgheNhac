@@ -1,0 +1,42 @@
+.ac_results {
+	margin-top: 1px;
+	margin-left: 10px;
+	padding: 0px;
+	border: 1px solid #cfcfcf;
+	background-color: white;
+	overflow: hidden;
+	z-index: 99999;
+	width: 275px;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 5px 5px;
+	cursor: default;
+	display: block;
+	font: menu;
+	font-size: 10pt;
+	font-family: tahoma;
+	overflow: hidden;
+}
+
+.ac_loading {
+	background: white url(http://www.xhdfull.com/images/load.gif) right center no-repeat;
+}
+
+.ac_odd {
+	background-color: #eee;
+}
+
+.ac_over {
+	background-color: #0094bb;
+	color: white;
+}

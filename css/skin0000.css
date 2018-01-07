@@ -1,0 +1,31 @@
+.boxy-wrapper { position: absolute; }
+.boxy-wrapper.fixed { position: fixed; }
+.boxy-modal-blackout { position: absolute; background-color: #060d1d; left: 0; top: 0; }
+.boxy-wrapper { empty-cells: show; }
+.boxy-wrapper .top-left {-moz-border-radius-topleft:5px;-webkit-border-top-left-radius:5px;}
+.boxy-wrapper .top-right {-moz-border-radius-topright:5px;-webkit-border-top-right-radius:5px;}
+.boxy-wrapper .bottom-left {-moz-border-radius-bottomleft:5px;-webkit-border-bottom-left-radius:5px;}
+.boxy-wrapper .bottom-right {-moz-border-radius-bottomright:5px;-webkit-border-bottom-right-radius:5px;}
+
+/* IE6+7 hacks for the border. IE7 should support this natively but fails in conjuction with modal blackout bg. */
+/* NB: these must be absolute paths or URLs to your img */
+
+.boxy-wrapper .title-bar { background-color: #6d84b4; padding: 6px; position: relative; }
+.boxy-wrapper .title-bar.dragging { cursor: move; }
+.boxy-wrapper .title-bar h2 { font-size: 1.2em; color: white; line-height: 1; margin: 0; padding: 0; font-weight: bold; }
+.boxy-wrapper .title-bar .close { width: 16px;height: 16px; text-align: center;color: white; position: absolute; top: 6px; right: 6px; font-size: 1em; font-weight: bold;line-height: 1; text-decoration: none; }
+.boxy-wrapper .title-bar .close:hover { color: #cfcfcf;}	
+.boxy-inner { border: 1px solid #d4d4d4;-moz-box-shadow:0 0 5px #dbdbdb;-webkit-box-shadow:0 0 5px #dbdbdb; background-color: white; padding: 0;}
+.boxy-content { padding: 15px; }
+.boxy-wrapper .question { width: 350px; min-height: 20px; }
+.boxy-wrapper .answers { text-align: right; }
+.login_boxy { width: 380px; margin:0; padding: 0;}
+.login_left_boxy { width: 90px; text-align: right; font-weight: bold;font-size: 13px }
+.login_left_boxy_ghinho{font-size: 13px}
+.login_input_boxy { width: 270px; border: 1px solid #a4b2c3; margin-right: 5px;}
+.login_input_top { padding-top: 8px;}
+.login_bottom_boxy {text-align: center; background:#f2f2f2; padding: 8px;  width: 400px; }
+.login_xxx { border: 1px solid #187abd; background: url(bg/input.gif) repeat-x 0px -30px; padding: 5px 9px; color: #FFF; font-weight: bold; cursor: pointer;text-shadow: 0 1px 0 #2C4566;-moz-border-radius: 3px;-webkit-border-radius: 3px;}
+.login_xxx:hover{ color: #fff; background:url(bg/input.gif) repeat-x top; border: 1px solid #26445f; text-decoration: none;}
+.login_bottom_boxy .close { border: 1px solid #187abd; background: url(bg/input.gif) repeat-x 0px -30px; padding: 5px 9px; color: #FFF; font-weight: bold; cursor: pointer;text-shadow: 0 1px 0 #2C4566;-moz-border-radius: 3px;-webkit-border-radius: 3px;}
+.login_bottom_boxy .close:hover{ color: #fff; background:url(bg/input.gif) repeat-x top; border: 1px solid #26445f; text-decoration: none;}

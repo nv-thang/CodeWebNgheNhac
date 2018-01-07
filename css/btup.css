@@ -1,0 +1,2 @@
+.btup { border: 1px solid #187abd; background: url(bg/input.gif) repeat-x 0px -30px; padding: 5px 9px; color: #FFF; font-weight: bold; cursor: pointer;text-shadow: 0 1px 0 #2C4566;-moz-border-radius: 3px;-webkit-border-radius: 3px;}
+.btup:hover{ color: #fff; background:url(bg/input.gif) repeat-x top; border: 1px solid #26445f; text-decoration: none;}

@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+* { margin: 0; padding: 0;}
+
+.body {font-family: tahoma; font-size: 9pt; background: #000 url(bg_all00.jpg) center top fixed no-repeat; }

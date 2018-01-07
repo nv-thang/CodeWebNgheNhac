@@ -1,0 +1,37 @@
+.menuhoten{
+font-weight: bold;
+color:#FFF;
+}
+#drop_menu{
+width: 100px;
+margin: -4px 0px 0px 0px;
+}
+#drop_menu_ul{
+list-style: none;
+}
+#drop_menu_ul li{
+position: relative;
+float: left;
+}
+#drop_menu_ul li a{
+display: block;
+}
+#drop_menu_ul li:hover{
+color: red;
+background: orange;
+}
+#drop_menu_sub{
+background: #FFF;
+position: absolute;
+display: none;
+width: 130px;
+}
+#drop_menu_ul li:hover ul{
+display: block;
+}
+#drop_menu_sub li{
+width: 100%;
+}
+#drop_menu_sub li:hover{
+background:#FFF;
+}
